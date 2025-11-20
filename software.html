@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Software e Slicer - 3D Italia Lab</title>
+  <link rel="stylesheet" href="stile.css">
+  <style>
+    body{font-family:Arial;background:#f5f5f5;margin:0;padding:0}
+    header{text-align:center;padding:40px 20px;background:#fff;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+    header h1{margin:0;font-size:2rem}
+    header p{color:#555;margin-top:10px;font-size:1.1rem}
+
+    .container{display:grid;gap:25px;padding:30px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+
+    .filamento{background:#fff;border-radius:14px;padding:20px;box-shadow:0 4px 12px rgba(0,0,0,0.1);text-align:center;position:relative;transition:transform .2s}
+    .filamento:hover{transform:scale(1.03)}
+
+    .popup img{width:100%;border-radius:12px}
+
+    .popup-info{text-align:left;padding-top:10px;color:#333;font-size:0.95rem}
+    .popup-info h3{margin:0 0 5px 0}
+
+    h2{text-align:center;margin-top:15px;font-size:1.3rem}
+
+    .bottone{display:inline-block;background:#000;color:#fff;padding:12px 25px;border-radius:10px;text-decoration:none;font-size:1rem;margin-bottom:30px}
+
+    @media(max-width:480px){
+      header h1{font-size:1.6rem}
+      header p{font-size:1rem}
+      .filamento{padding:15px}
+      h2{font-size:1.15rem}
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <h1>Software e Slicer</h1>
+  <p>I software più usati nella stampa 3D, con consigli per principianti e avanzati.</p>
+</header>
+
+<div class="container">
+
+  <div class="filamento">
+    <div class="popup">
+      <img src="immagini/cura.webp" alt="Cura">
+      <div class="popup-info">
+        <h3>Cura</h3>
+        <p>• Perfetto per principianti<br>• Molti profili automatici<br>• Interfaccia semplice e intuitiva<br>• Ampio supporto stampanti</p>
+      </div>
+    </div>
+    <h2>Cura</h2>
+  </div>
+
+  <div class="filamento">
+    <div class="popup">
+      <img src="immagini/prusaslicer.webp" alt="PrusaSlicer">
+      <div class="popup-info">
+        <h3>PrusaSlicer</h3>
+        <p>• Impostazioni avanzate<br>• Eccellente controllo pareti e flussi<br>• Grande precisione<br>• Ideale per stampe tecniche</p>
+      </div>
+    </div>
+    <h2>PrusaSlicer</h2>
+  </div>
+
+  <div class="filamento">
+    <div class="popup">
+      <img src="immagini/bambu_studio.webp" alt="Bambu Studio">
+      <div class="popup-info">
+        <h3>Bambu Studio</h3>
+        <p>• Software ufficiale Bambu Lab<br>• Controllo vibrazioni e velocità automatico<br>• Eccezionale per alta velocità<br>• Slicata stabile e precisa</p>
+      </div>
+    </div>
+    <h2>Bambu Studio</h2>
+  </div>
+
+  <div class="filamento">
+    <div class="popup">
+      <img src="immagini/orca.webp" alt="Orca Slicer">
+      <div class="popup-info">
+        <h3>Orca Slicer</h3>
+        <p>• Basato su Bambu Studio<br>• Molto flessibile e personalizzabile<br>• Torri di temperatura avanzate<br>• Ideale per materiali tecnici</p>
+      </div>
+    </div>
+    <h2>Orca Slicer</h2>
+  </div>
+
+</div>
+
+<center><a class="bottone" href="index.html">⬅ Torna alla Home</a></center>
+
+</body>
+</html>
